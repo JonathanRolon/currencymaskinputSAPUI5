@@ -25,12 +25,6 @@ sap.ui.define([
 
 			// set the device model
 			this.setModel(models.createDeviceModel(), "device");
-		
-		/*	jQuery.sap.includeScript({
-				url: "https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.2.6/jquery.inputmask.bundle.min.js"
-			}).then(function () {
-				//alert('library loaded!');
-			});*/
 
 		}
 	});
